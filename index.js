@@ -10,11 +10,11 @@ var app = express()
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 app.use(cors())
-const CLIENT_ID ='895300827723-saregmm615tudn8782s76pbaiqiqe7us.apps.googleusercontent.com'
+const CLIENT_ID =''
 
-const CLIENT_SECRET='ogaQVwozguFNg_K-UH7bJjPt'
-const REDIRECT_URI='https://developers.google.com/oauthplayground'
-const REFRESH_TOKEN='1//048BhnQi49wJ_CgYIARAAGAQSNwF-L9Ir2_h7bT14MqiIJtXoeez16xSmtmeF-KugTcnO80Nij5zRv_5ciU95xgWxcF07ZJjHxTg'
+const CLIENT_SECRET=''
+const REDIRECT_URI=''
+const REFRESH_TOKEN=''
 
 const oauth2Client = new google.auth.OAuth2(
 CLIENT_ID,
